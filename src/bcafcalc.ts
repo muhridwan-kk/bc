@@ -1,13 +1,4 @@
-export interface BcafParam {
-	getMinimalDP():number;
-	getHargaKendaraan():number;
-	getUangMuka():number;
-	getTahunKendaraan():number;
-	getAsuransi():number;
-	getZonaWilayah():number;
-	getKondisiKendaraan():number;
-
-}
+import {BcafParam} from "./bcafparam";
 
 export  class BcafCalc {
 	static roundNumber(rnum:number, rlength:number) {
